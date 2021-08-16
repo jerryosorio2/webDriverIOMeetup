@@ -8,6 +8,12 @@ WebdriverIO meetup examples
 npm install @wdio/cli
 ```
 
+## Set up WebdriverIO
+
+```
+npx wdio config
+```
+
 ## Installation
 
 First clone repository
@@ -22,13 +28,28 @@ Install packages
 npm install
 ```
 
-Execute test
+Execute test suite
 
 ```bash
-npm run headless
+npx wdio run ./wdio.conf.js
+```
 
+Execute specific test
+
+```bash
+npx wdio run ./wdio.conf.js --spec fileName.js
+```
+
+Execute specific test
+
+```bash
+npx wdio run ./wdio.conf.js --suite suiteName
 ```
 
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
+
+```
+
+```
