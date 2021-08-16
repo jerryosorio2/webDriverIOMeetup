@@ -4,7 +4,9 @@ WebdriverIO meetup examples
 
 ## Install WebdriverIO
 
+```
 npm install @wdio/cli
+```
 
 ## Installation
 
