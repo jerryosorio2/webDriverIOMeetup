@@ -49,7 +49,3 @@ npx wdio run ./wdio.conf.js --suite suiteName
 ## License
 
 [MIT](https://choosealicense.com/licenses/mit/)
-
-```
-
-```
