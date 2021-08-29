@@ -50,6 +50,8 @@ npx wdio run ./wdio.conf.js --suite suiteName
 
 ## Execution via test script
 
+Execute test examples
+
 ```bash
 npm run test
 ```

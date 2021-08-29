@@ -4,7 +4,8 @@
   "description": "WebdriverIO meetup examples",
   "main": "index.js",
   "scripts": {
-    "test": "wdio wdio.conf.js"
+    "basicExamples": "wdio wdio.conf.js --spec basicExamples.js",
+    "attributesExamples": "wdio wdio.conf.js --spec attributesExamples.js"
   },
   "repository": {
     "type": "git",
