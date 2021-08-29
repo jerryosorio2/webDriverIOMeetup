@@ -1,0 +1,29 @@
+{
+  "name": "webdriveriomeetup",
+  "version": "1.0.0",
+  "description": "WebdriverIO meetup examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jerryosorio2/webDriverIOMeetup.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jerryosorio2/webDriverIOMeetup/issues"
+  },
+  "homepage": "https://github.com/jerryosorio2/webDriverIOMeetup#readme",
+  "dependencies": {
+    "@wdio/cli": "^7.11.0"
+  },
+  "devDependencies": {
+    "@wdio/local-runner": "^7.11.0",
+    "@wdio/mocha-framework": "^7.11.0",
+    "@wdio/spec-reporter": "^7.10.1",
+    "chromedriver": "^92.0.1",
+    "wdio-chromedriver-service": "^7.2.0"
+  }
+}
