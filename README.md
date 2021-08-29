@@ -28,6 +28,8 @@ Install packages
 npm install
 ```
 
+## Execution
+
 Execute test suite
 
 ```bash
@@ -40,10 +42,16 @@ Execute specific test
 npx wdio run ./wdio.conf.js --spec fileName.js
 ```
 
-Execute specific test
+Execute specific suite test
 
 ```bash
 npx wdio run ./wdio.conf.js --suite suiteName
+```
+
+## Execution
+
+```bash
+npx wdio run ./wdio.conf.js --spec fileName.js
 ```
 
 ## License
