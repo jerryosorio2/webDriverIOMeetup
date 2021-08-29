@@ -48,10 +48,10 @@ Execute specific suite test
 npx wdio run ./wdio.conf.js --suite suiteName
 ```
 
-## Execution
+## Execution via test script
 
 ```bash
-npx wdio run ./wdio.conf.js --spec fileName.js
+npm run test
 ```
 
 ## License
