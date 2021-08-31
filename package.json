@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "basicExamples": "wdio wdio.conf.js --spec basicExamples.js",
-    "attributesExamples": "wdio wdio.conf.js --spec attributesExamples.js"
+    "attributesExamples": "wdio wdio.conf.js --spec attributesExamples.js",
+    "waitsExamples": "wdio wdio.conf.js --spec waitsExamples.js"
   },
   "repository": {
     "type": "git",

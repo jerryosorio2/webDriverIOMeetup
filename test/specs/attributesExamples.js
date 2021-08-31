@@ -13,4 +13,11 @@ describe("Attribute Actions Examples", () => {
     const inputValue = await userNameInput.getValue();
     console.log(inputValue);
   });
+
+  it("Get element attribute", async () => {
+    const userNameInput = await $('//input[@id="username"]');
+    await expect(userNameInput).toHaveAttrContaining("type", "text");
+    const attributeValue = await userNameInput.getAttribute("type");
+    console.log(attributeValue);
+  });
 });
