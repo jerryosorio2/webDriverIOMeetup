@@ -6,7 +6,8 @@
   "scripts": {
     "basicExamples": "wdio wdio.conf.js --spec basicExamples.js",
     "attributesExamples": "wdio wdio.conf.js --spec attributesExamples.js",
-    "waitsExamples": "wdio wdio.conf.js --spec waitsExamples.js"
+    "waitsExamples": "wdio wdio.conf.js --spec waitsExamples.js",
+    "POMExamples": "wdio wdio.conf.js --spec POMExamples.js"
   },
   "repository": {
     "type": "git",
@@ -19,6 +20,10 @@
   },
   "homepage": "https://github.com/jerryosorio2/webDriverIOMeetup#readme",
   "dependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/register": "^7.15.3",
     "@wdio/cli": "^7.11.0"
   },
   "devDependencies": {
