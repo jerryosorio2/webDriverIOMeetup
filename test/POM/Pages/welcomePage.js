@@ -3,3 +3,5 @@ class WelcomePage {
     return $("#flash");
   }
 }
+
+export default WelcomePage;
