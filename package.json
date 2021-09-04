@@ -7,7 +7,9 @@
     "basicExamples": "wdio wdio.conf.js --spec basicExamples.js",
     "attributesExamples": "wdio wdio.conf.js --spec attributesExamples.js",
     "waitsExamples": "wdio wdio.conf.js --spec waitsExamples.js",
-    "POMExamples": "wdio wdio.conf.js --spec POMExamples.js"
+    "POMExamples": "wdio wdio.conf.js --spec POMExamples.js",
+    "basicSuite": "wdio wdio.conf.js --suite basic",
+    "pomSuite": "npx wdio wdio.conf.js --suite pom"
   },
   "repository": {
     "type": "git",

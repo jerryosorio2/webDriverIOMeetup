@@ -53,7 +53,7 @@ npx wdio run ./wdio.conf.js --suite suiteName
 Execute test examples
 
 ```bash
-npm run test
+npm run <test script>
 ```
 
 ## License

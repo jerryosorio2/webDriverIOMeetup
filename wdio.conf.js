@@ -25,6 +25,16 @@ exports.config = {
   exclude: [
     // 'path/to/excluded/files'
   ],
+
+  suites: {
+    basic: [
+      "./test/specs/basicExamples.js",
+      "./test/specs/attributesExamples.js",
+      "./test/specs/waitsExamples.js",
+    ],
+    pom: ["./test/specs/POMExamples.js"],
+  },
+
   //
   // ============
   // Capabilities
