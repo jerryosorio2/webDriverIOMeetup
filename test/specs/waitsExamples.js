@@ -7,8 +7,8 @@ describe("Waits Examples", () => {
   it("Implicit Wait Example", async () => {
     await browser.pause(3000);
     const userNameInput = await $('//input[@id="username"]');
-    await userNameInput.setValue("Example with implicit wait");
     await browser.pause(3000);
+    await userNameInput.setValue("Example with implicit wait");
   });
 
   it("Explicit Wait Example", async () => {
